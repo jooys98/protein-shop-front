@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+
+body {
+  background-color: #000000; /* 배경색: 검은색 */
+  color: #fff; /* 글씨색: 흰색 */
+  margin: 0; /* 기본 여백 제거 */
+  font-family: Arial, sans-serif; /* 기본 폰트 설정 */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #fff; /* 링크 색상 */
+  text-decoration: none; /* 링크 밑줄 제거 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.text-hover-effect {
+  font-size: 15px;
+  transition: transform 0.3s ease, color 0.3s ease; /* 색상도 애니메이션 추가 */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-hover-effect:hover {
+  transform: scale(1.1);
+  color:  #fa583b; /* 마우스 오버 시 글씨 색 변경 */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

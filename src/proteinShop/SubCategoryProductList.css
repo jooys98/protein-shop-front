@@ -1,0 +1,67 @@
+/* 전체 컨테이너 스타일 */
+.subcategory-container {
+    padding: 20px;
+  }
+  
+  /* 제목 스타일 */
+  .subcategory-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* 상품 목록을 그리드 형태로 정렬 */
+  .subcategory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* 개별 상품 카드 스타일 */
+  .subcategory-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* 링크 스타일 */
+  .subcategory-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* 이미지 스타일 */
+  .subcategory-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* 상품 제목 스타일 */
+  .subcategory-product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  /* 상품 가격 스타일 */
+  .subcategory-product-price {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* 상품이 없을 경우 메시지 스타일 */
+  .no-products {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  

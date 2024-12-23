@@ -1,0 +1,12 @@
+.category-dropdown {
+    display: none; /* 기본적으로 숨김 */
+  }
+  
+  .category-dropdown.show {
+    display: block; /* 보이게 함 */
+    background-color: #e66767;
+  }
+  
+  .category-dropdown li:hover {
+    background-color: #ff0000;
+  }
